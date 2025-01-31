@@ -35,5 +35,5 @@ interface SettingsManagerInterface
     /**
      * Clears setting value.
      */
-    public function clear(string $name, SettingsOwnerInterface $owner = null): void;
+    public function clear(string $name, ?SettingsOwnerInterface $owner = null): void;
 }
