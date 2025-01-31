@@ -242,7 +242,7 @@ class SettingsManager implements SettingsManagerInterface
     /**
      * Settings lazy loading.
      */
-    private function loadSettings(SettingsOwnerInterface $owner = null): void
+    private function loadSettings(?SettingsOwnerInterface $owner = null): void
     {
         // Global settings
         if (null === $this->globalSettings) {
